@@ -39,14 +39,14 @@ public class Desafio {
                         System.out.println("Lo sentimos saldo insuficiente");
                     }else{
                        saldo = saldo - valorARetirar;
-                        System.out.println("El saldo actualizado es:  " + "$" + saldo);
+                        System.out.println("El saldo actualizado es de:  " + "$" + saldo);
                     }
                     break;
                 case 3:
                     System.out.println("Cual es el valor que desea depositar");
                     double valorADepositar = teclado.nextDouble();
                     saldo += valorADepositar;
-                    System.out.println("El saldo actualizado es: " + "$" + saldo);
+                    System.out.println("El saldo actualizado es de: " + "$" + saldo);
                     break;
                 case 7:
                     System.out.println("Saliendo del programa, gracias por utilizar nuestros servicios");
